@@ -1,5 +1,9 @@
 <Alloy>
-	<Window class="container">
-		<Label id="label" onClick="doClick">Hello, World</Label>
-	</Window>
+	<NavigationWindow id="naviWindow">
+		<Window id="main" class="container">
+			<RightNavButton>
+				<Button id="btnDishList">Recipes</Button>
+			</RightNavButton>
+		</Window>
+	</NavigationWindow>
 </Alloy>

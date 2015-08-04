@@ -1,0 +1,11 @@
+<Alloy>
+    <Window id="webView" >
+        
+            
+            <WebView id="searchedContents" url="" />
+            <ActivityIndicator id="activityIndicator" visible=true />
+            
+            
+        
+    </Window>
+</Alloy>

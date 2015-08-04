@@ -1,0 +1,17 @@
+
+".container" : {
+  backgroundColor:"#fff",
+},
+"#searchedContents" : {
+    top:'5dp'
+},
+
+"#activityIndicator" : {
+  color: 'green',
+  font: {fontFamily:'Helvetica Neue', fontSize:26, fontWeight:'bold'},
+  message: 'Loading...',
+  top:200,
+  height:Ti.UI.SIZE,
+  width:Ti.UI.SIZE
+},
+
